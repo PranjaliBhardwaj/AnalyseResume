@@ -1,0 +1,13 @@
+nltk==3.8.1
+pafy==0.5.5
+pandas==2.1.2
+pdfminer3==2018.12.3.0
+Pillow==10.1.0
+Pillow==10.1.0
+plotly==5.18.0
+pyresparser==1.0.6
+spacy==2.3.9
+streamlit==1.28.1
+streamlit_tags==1.2.8
+youtube_dl==2021.12.17
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
