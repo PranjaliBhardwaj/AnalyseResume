@@ -17,6 +17,7 @@ from PIL import Image
 from links import ds_course, web_course, android_course, ios_course, uiux_course, resume_videos, interview_videos
 import pafy
 
+
 st.set_page_config(
     page_icon= "📄",
     page_title="Resume Score Analyzer",
@@ -187,6 +188,7 @@ def run():
                         unsafe_allow_html=True)
                     rec_course = courseRecommend(android_course)
                     break
+                    
 
                 ## IOS App Development
                 elif i.lower() in ios_keyword:
@@ -304,6 +306,7 @@ def run():
                 "** Note: This score is calculated based on the content that you have added in your Resume. **")
             st.balloons()
 
+        
             
         else:
             st.error('Something went wrong..')
